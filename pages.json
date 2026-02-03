@@ -361,7 +361,14 @@
         {
             "path": "pages/my/exchange",
             "style": {
-                "navigationBarTitleText": "Bulk Stock",
+                "navigationBarTitleText": "Exchange",
+                "enablePullDownRefresh": false
+            }
+        },
+        {
+            "path": "pages/my/bank/index",
+            "style": {
+                "navigationBarTitleText": "Bank",
                 "enablePullDownRefresh": false
             }
         },
@@ -440,6 +447,13 @@
             "style": {
                 "navigationBarTitleText": "",
                 "navigationStyle": "custom"
+            }
+        },
+        {
+            "path": "pages/my/exchange_history",
+            "style": {
+                "navigationBarTitleText": "Exchange History",
+                "enablePullDownRefresh": false
             }
         },
         {
@@ -566,8 +580,8 @@
                 "selectedIconPath": "/static/tabs/position_active.png"
             },
             {
-                "text": "News",
-                "pagePath": "pages/news/index",
+                "text": "Favorites",
+                "pagePath": "pages/optional/index",
                 "iconPath": "/static/tabs/news.png",
                 "selectedIconPath": "/static/tabs/news_active.png"
             },
